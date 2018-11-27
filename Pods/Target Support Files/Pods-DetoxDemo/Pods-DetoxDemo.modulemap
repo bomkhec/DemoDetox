@@ -1,0 +1,6 @@
+framework module Pods_DetoxDemo {
+  umbrella header "Pods-DetoxDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

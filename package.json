@@ -1,0 +1,20 @@
+{
+  "name": "DetoxDemo",
+  "version": "1.0",
+  "devDependencies": {
+    "detox": "^9.1.2",
+    "jest": "^23.6.0"
+  },
+  "detox": {
+    "test-runner": "jest",
+    "configurations": {
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxDemo.app",
+        "build": "xcodebuild -workspace DetoxDemo.xcworkspace -scheme DetoxDemo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "name": "iPhone 7"
+      }
+    },
+    "test-runner": "jest"
+  }
+}

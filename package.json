@@ -7,6 +7,7 @@
   },
   "detox": {
     "test-runner": "jest",
+    "specs": "e2e",
     "configurations": {
       "ios.sim.debug": {
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/DetoxDemo.app",

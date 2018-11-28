@@ -178,7 +178,6 @@
 				D2090AF921ACE30E00294EBB /* Resources */,
 				E4E9D8BD141CE9B4DFF33EF0 /* [CP] Embed Pods Frameworks */,
 				62105F4FA06A87DB3AF56317 /* [CP] Copy Pods Resources */,
-				D228F21121AE32A60009493E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -402,23 +401,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetoxDemoUITests/Pods-DetoxDemoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		D228F21121AE32A60009493E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "detox build --configuration ios.sim.release\ndetox test --configuration ios.sim.release --cleanup\n";
 		};
 		E4C7D98B09709900CF612CD1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

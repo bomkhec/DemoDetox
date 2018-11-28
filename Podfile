@@ -17,8 +17,6 @@ pod 'Alamofire'
     inherit! :search_paths
     # Pods for testing
   end
-
-end
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
@@ -27,5 +25,6 @@ post_install do |installer|
       config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
     end
   end
+end
 end
 

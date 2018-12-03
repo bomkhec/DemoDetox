@@ -5,13 +5,6 @@ registerAllureReporter();
 describe('Example', () => {
   beforeEach(async () => {
     await device.relaunchApp();
-
-    reporter
-        .description("Feature should work cool")
-        .feature("Demo")
-        .severity(Severity.Critical)
-        .story("BOND-007")
-        .addEnviroment("OS", "abc");
   });
 
   it('Hello screen', async () => {

@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1543810775286' stop='1543810784521'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1543810775287' status='passed' stop='1543810777976'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1543810777920' status='undefined'>
+                    <name>Check Hello</name>
+                    <title>Check Hello</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543810777976' status='passed' stop='1543810781239'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1543810780568' status='passed' stop='1543810781239'>
+                    <name>Check next screen</name>
+                    <title>Check next screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1543810781239' status='passed' stop='1543810784512'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1543810783840' status='passed' stop='1543810784512'>
+                    <name>Check next screen 3</name>
+                    <title>Check next screen 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1543896896189' stop='1543896907788'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1543896896189' status='passed' stop='1543896898820'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543896898820' status='passed' stop='1543896902029'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543896902029' status='passed' stop='1543896905235'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1543896905235' status='failed' stop='1543896907787'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: after is not defined</message>
+                <stack-trace>ReferenceError: after is not defined
+                    at Suite.after (/Users/thien.tran/Desktop/Demo/DemoDetox/e2e/firstTest.spec.js:40:3)
+                    at addSpecsToSuite (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/jasmine/Env.js:339:25)
+                    at Env.describe (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/jasmine/Env.js:308:7)
+                    at describe (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/jasmine/jasmine_light.js:99:18)
+                    at Object.describe (/Users/thien.tran/Desktop/Demo/DemoDetox/e2e/firstTest.spec.js:5:1)
+                    at Runtime._execModule (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-runtime/build/index.js:694:13)
+                    at Runtime.requireModule (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-runtime/build/index.js:376:14)
+                    at /Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/index.js:129:13
+                    at Generator.next (&lt;anonymous>)
+                    at step (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/index.js:170:30)
+                    at /Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/index.js:189:14
+                    at new Promise (&lt;anonymous>)
+                    at /Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/index.js:167:12
+                    at jasmine2 (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/index.js:138:17)
+                    at /Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-runner/build/run_test.js:187:24
+                    at Generator.next (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,68 @@
+{
+  "uid" : "d722c65b4687dd4b",
+  "name" : "should show next screen after tap",
+  "fullName" : "Example.should show next screen after tap",
+  "historyId" : "6287faec1e21681b382907755783caab",
+  "time" : {
+    "start" : 1543810668222,
+    "stop" : 1543810671457,
+    "duration" : 3235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check next screen 3",
+      "time" : {
+        "start" : 1543810670785,
+        "stop" : 1543810671457,
+        "duration" : 672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example"
+  }, {
+    "name" : "testClass",
+    "value" : "Example"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show next screen after tap"
+  }, {
+    "name" : "package",
+    "value" : "Example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d722c65b4687dd4b.json",
+  "parameterValues" : [ ]
+}

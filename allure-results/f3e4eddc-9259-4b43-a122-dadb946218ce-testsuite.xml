@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1543899541277' stop='1543899551670'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1543899541278' status='failed' stop='1543899544038'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: device.cleanUp is not a function</message>
+                <stack-trace>TypeError: device.cleanUp is not a function
+                    at Object.cleanUp (/Users/thien.tran/Desktop/Demo/DemoDetox/e2e/firstTest.spec.js:39:18)
+                    at Object.asyncJestLifecycle (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/jasmine_async.js:63:37)
+                    at resolve (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+                    at new Promise (&lt;anonymous>)
+                    at mapper (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+                    at promise.then (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:87:41)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1543899544038' status='failed' stop='1543899547959'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: device.cleanUp is not a function</message>
+                <stack-trace>TypeError: device.cleanUp is not a function
+                    at Object.cleanUp (/Users/thien.tran/Desktop/Demo/DemoDetox/e2e/firstTest.spec.js:39:18)
+                    at Object.asyncJestLifecycle (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/jasmine_async.js:63:37)
+                    at resolve (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+                    at new Promise (&lt;anonymous>)
+                    at mapper (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+                    at promise.then (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:87:41)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1543899547959' status='failed' stop='1543899551669'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: device.cleanUp is not a function</message>
+                <stack-trace>TypeError: device.cleanUp is not a function
+                    at Object.cleanUp (/Users/thien.tran/Desktop/Demo/DemoDetox/e2e/firstTest.spec.js:39:18)
+                    at Object.asyncJestLifecycle (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/jasmine_async.js:63:37)
+                    at resolve (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:56:12)
+                    at new Promise (&lt;anonymous>)
+                    at mapper (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+                    at promise.then (/Users/thien.tran/Desktop/Demo/DemoDetox/node_modules/jest-jasmine2/build/queue_runner.js:87:41)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

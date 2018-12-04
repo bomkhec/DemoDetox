@@ -1,0 +1,43 @@
+{
+  "uid" : "4df0cf403cef21c1",
+  "name" : "should show next screen after tap",
+  "fullName" : "Example.should show next screen after tap",
+  "historyId" : "6287faec1e21681b382907755783caab",
+  "time" : {
+    "start" : 1543811109686,
+    "stop" : 1543811113414,
+    "duration" : 3728
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example"
+  }, {
+    "name" : "testClass",
+    "value" : "Example"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show next screen after tap"
+  }, {
+    "name" : "package",
+    "value" : "Example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4df0cf403cef21c1.json",
+  "parameterValues" : [ ]
+}

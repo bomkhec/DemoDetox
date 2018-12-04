@@ -1,0 +1,43 @@
+{
+  "uid" : "8bbb84124278448b",
+  "name" : "Hello screen",
+  "fullName" : "Example.Hello screen",
+  "historyId" : "4dd017b69749210babd4bb52198e654c",
+  "time" : {
+    "start" : 1543811785546,
+    "stop" : 1543811788579,
+    "duration" : 3033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example"
+  }, {
+    "name" : "testClass",
+    "value" : "Example"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hello screen"
+  }, {
+    "name" : "package",
+    "value" : "Example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bbb84124278448b.json",
+  "parameterValues" : [ ]
+}

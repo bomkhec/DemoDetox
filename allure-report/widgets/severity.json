@@ -1,0 +1,31 @@
+[ {
+  "uid" : "9791f72f9f646dd6",
+  "name" : "should show next screen 3 after tap",
+  "time" : {
+    "start" : 1543888080467,
+    "stop" : 1543888085196,
+    "duration" : 4729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1578876b95c40dd4",
+  "name" : "should show next screen after tap",
+  "time" : {
+    "start" : 1543888076289,
+    "stop" : 1543888080467,
+    "duration" : 4178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23c246b7f491a1eb",
+  "name" : "Hello screen",
+  "time" : {
+    "start" : 1543888073007,
+    "stop" : 1543888076289,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

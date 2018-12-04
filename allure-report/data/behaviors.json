@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Hello screen",
+    "uid" : "23c246b7f491a1eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1543888073007,
+      "stop" : 1543888076289,
+      "duration" : 3282
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should show next screen after tap",
+    "uid" : "1578876b95c40dd4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1543888076289,
+      "stop" : 1543888080467,
+      "duration" : 4178
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "should show next screen 3 after tap",
+    "uid" : "9791f72f9f646dd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1543888080467,
+      "stop" : 1543888085196,
+      "duration" : 4729
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
+}

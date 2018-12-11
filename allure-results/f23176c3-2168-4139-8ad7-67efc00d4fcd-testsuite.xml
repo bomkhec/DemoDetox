@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544520321476' stop='1544520331411'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1544520321476' status='passed' stop='1544520324242'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels>
+                <label name='story' value='Test Hello screen'/>
+                <label name='feature' value='Test Display label'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544520324182' status='passed' stop='1544520324241'>
+                    <name>test visible hello label</name>
+                    <title>test visible hello label</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test Hello screen</description>
+        </test-case>
+        <test-case start='1544520324242' status='passed' stop='1544520327839'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 2nd screen'/>
+                <label name='feature' value='Test Display 2nd screen'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='abc.png' source='e870967b-5112-482b-bb31-911bad4d8996-attachment.png' type='image/png' size='3607380'/>
+            </attachments>
+            <description type='text'>Only test navigate to next screen</description>
+        </test-case>
+        <test-case start='1544520327839' status='passed' stop='1544520331405'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 3rd screen'/>
+                <label name='feature' value='Test Display 3rd screen'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <description type='text'>Only test navigate to 3rd screen</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

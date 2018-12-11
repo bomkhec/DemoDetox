@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544520904433' stop='1544520914669'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1544520904434' status='passed' stop='1544520907124'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels>
+                <label name='story' value='Test Hello screen'/>
+                <label name='feature' value='Test Display label'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544520907060' status='undefined'>
+                    <name>test visible hello label</name>
+                    <title>test visible hello label</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test Hello screen</description>
+        </test-case>
+        <test-case start='1544520907124' status='passed' stop='1544520910974'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 2nd screen'/>
+                <label name='feature' value='Test Display 2nd screen'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544520910189' status='undefined'>
+                    <name>2 step</name>
+                    <title>2 step</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='abc.png' source='b8ee5950-0f7f-4e3a-9c0f-dcabd23f4c35-attachment.png' type='image/png' size='3607734'/>
+            </attachments>
+            <description type='text'>Only test navigate to next screen</description>
+        </test-case>
+        <test-case start='1544520910975' status='passed' stop='1544520914658'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 3rd screen'/>
+                <label name='feature' value='Test Display 3rd screen'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='step2.png' source='af48d352-7ecc-4ccf-a904-fcb9c41bb4c6-attachment.png' type='image/png' size='3607734'/>
+            </attachments>
+            <description type='text'>Only test navigate to 3rd screen</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544520673626' stop='1544520683483'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1544520673627' status='passed' stop='1544520676351'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1544520676351' status='passed' stop='1544520680200'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1544520680200' status='passed' stop='1544520683482'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

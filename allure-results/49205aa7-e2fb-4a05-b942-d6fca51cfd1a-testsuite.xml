@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544523334668' stop='1544523346247'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1544523334669' status='passed' stop='1544523337986'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels>
+                <label name='story' value='Test Hello screen'/>
+                <label name='feature' value='Test Display label'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544523337539' status='undefined'>
+                    <name>test visible hello label</name>
+                    <title>test visible hello label</title>
+                    <attachments>
+                        <attachment title='step1.png' source='4cdc323c-4bc9-4d25-858d-97b9dfdd50b4-attachment.png' type='image/png' size='37133'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test Hello screen</description>
+        </test-case>
+        <test-case start='1544523337987' status='passed' stop='1544523342115'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 2nd screen'/>
+                <label name='feature' value='Test Display 2nd screen'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544523340926' status='undefined'>
+                    <name>Test visible 2nd screen label</name>
+                    <title>Test visible 2nd screen label</title>
+                    <attachments>
+                        <attachment title='step2.png' source='152742eb-030a-4f8f-aca8-f9e99682e089-attachment.png' type='image/png' size='30670'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test navigate to next screen</description>
+        </test-case>
+        <test-case start='1544523342115' status='passed' stop='1544523346237'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 3rd screen'/>
+                <label name='feature' value='Test Display 3rd screen'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544523345037' status='undefined'>
+                    <name>Test visible 3rd screen label</name>
+                    <title>Test visible 3rd screen label</title>
+                    <attachments>
+                        <attachment title='step3.png' source='99b3b42e-4754-4057-85f8-d09aa2895ae0-attachment.png' type='image/png' size='30666'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test navigate to 3rd screen</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

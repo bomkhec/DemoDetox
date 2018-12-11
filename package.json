@@ -23,5 +23,8 @@
         "name": "iPhone 7"
       }
     }
+  },
+  "dependencies": {
+    "child-process-async": "^1.0.1"
   }
 }

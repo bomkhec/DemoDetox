@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544522416759' stop='1544522427497'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1544522416759' status='passed' stop='1544522419943'>
+            <name>Hello screen</name>
+            <title>Hello screen</title>
+            <labels>
+                <label name='story' value='Test Hello screen'/>
+                <label name='feature' value='Test Display label'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544522419356' status='undefined'>
+                    <name>test visible hello label</name>
+                    <title>test visible hello label</title>
+                    <attachments>
+                        <attachment title='abc.png' source='cd7c1736-43d6-4194-8424-5f3e0b437e7a-attachment.png' type='image/png' size='3607707'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test Hello screen</description>
+        </test-case>
+        <test-case start='1544522419943' status='passed' stop='1544522423998'>
+            <name>should show next screen after tap</name>
+            <title>should show next screen after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 2nd screen'/>
+                <label name='feature' value='Test Display 2nd screen'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1544522422699' status='undefined'>
+                    <name>2 step</name>
+                    <title>2 step</title>
+                    <attachments>
+                        <attachment title='step2.png' source='492e72af-606e-4a04-837b-46274bebd642-attachment.png' type='image/png' size='3607707'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Only test navigate to next screen</description>
+        </test-case>
+        <test-case start='1544522423998' status='passed' stop='1544522427490'>
+            <name>should show next screen 3 after tap</name>
+            <title>should show next screen 3 after tap</title>
+            <labels>
+                <label name='story' value='Test navigate to 3rd screen'/>
+                <label name='feature' value='Test Display 3rd screen'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <description type='text'>Only test navigate to 3rd screen</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
